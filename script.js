@@ -15,7 +15,7 @@ $('document').ready(() => {
     var pwSymbols = $('#pwSymbols');
     var btnGenerate = $('#btnGenerate');
     var inpResult = $('#inpResult');
-
+    inpResult.val("Result..");
     // console.log(pwLowercase);
 
     //Funtions
@@ -85,6 +85,8 @@ $('document').ready(() => {
     }
 
 
+    var daResult = "";
+
     //Event
     btnGenerate.click(() => {
         console.log("%cUser clicked the generate button.", "color: #F28C28");
@@ -110,39 +112,19 @@ $('document').ready(() => {
         // console.log("symbolz", numberz);
         // console.log("numberz", symbolz);
 
-        var daResult = generatePass(l3ngth, lowerCase, upperCase, numberz, symbolz);
-
+        daResult = generatePass(l3ngth, lowerCase, upperCase, numberz, symbolz);
+        inpResult.val(daResult);
         console.log("%cGenerated pass", "background-color: Green", daResult);
 
         //If there is a result click event shouldn' t delete the output.
-        inpResult.val("Result..");
-        if (inpResult.val().length == daResult.length || inpResult.val().length > 0) {
-            inpResult.val(daResult);
-        } else {
-            inpResult.click(() => {
-                inpResult.val("");
-            })
-        };
-
 
     });
 
+    inpResult.click(() => {
+        if (inpResult.val() != daResult) {
+            inpResult.val("");
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    });
 
 });
