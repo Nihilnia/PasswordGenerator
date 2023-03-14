@@ -8,15 +8,10 @@ Password Generator is a web application that allows you to generate secure and r
 - Choose from different character sets (letters, numbers, symbols) to include in the password.
 - Copy password to clipboard for easy use.
 
-## Installation
-If you wish to download and run the application locally
+## Getting Started
 
-1. Clone the repository: `git clone https://github.com/Nihilnia/PasswordGenerator.git`
-2. Navigate to the project directory: `cd PasswordGenerator`
-3. Install the dependencies: `npm install`
-4. Start the server: `npm start`
-
-The application will now be running at your localhost.
+To use my Password Generator, simply download or clone the repository and open the `index.html` file in your browser.<br/>
+Alternatively, you can [view the live demo](https://nihilnia.github.io/PasswordGenerator) hosted on GitHub Pages.
 
 ## Usage
 To use the application, simply navigate to the [Password Generator website](https://nihilnia.github.io/PasswordGenerator).<br/><br/>
