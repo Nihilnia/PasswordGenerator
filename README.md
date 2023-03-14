@@ -14,7 +14,6 @@ To use my Password Generator, simply download or clone the repository and open t
 Alternatively, you can [view the live demo](https://nihilnia.github.io/PasswordGenerator) hosted on GitHub Pages.
 
 ## Usage
-To use the application, simply navigate to the [Password Generator website](https://nihilnia.github.io/PasswordGenerator).<br/><br/>
 To generate a new password, simply choose the desired length and complexity and click on the "Generate Password" button. You can choose to include lowercase letters, uppercase letters, numbers and symbols in the password. Once generated, the password will be displayed on the screen and copied to your clipboard automatically. 
 
 ## Contributing
