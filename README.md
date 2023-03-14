@@ -1,6 +1,6 @@
 # Password Generator [![Live on Github Pages](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/liveOnGitHubPages.svg)](https://nihilnia.github.io/PasswordGenerator)
 
-![Logo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE3MWQ5ODU4MWQ1OGE2MDk0NDA3ODUwMjFiNzMwYjQwMGIxN2EzOSZjdD1n/FO6jODwU5Ce2aHmPO9/giphy.gif)<br/>
+![Logo](https://raw.githubusercontent.com/Nihilnia/ProjectsGifs/main/Password%20Generator.gif)<br/>
 Password Generator is a web application that allows you to generate secure and random passwords of varying length and complexity.
 
 ## Features
